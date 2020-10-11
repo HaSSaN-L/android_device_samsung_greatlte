@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_greatlte.mk
+    $(LOCAL_DIR)/zenx_greatlte.mk
+
+COMMON_LUNCH_CHOICES := \
+    zenx_greatlte-user \
+    zenx_greatlte-userdebug
